@@ -1,4 +1,4 @@
-g
+
 FROM node:lts-buster
 
 RUN apt-get update && \
