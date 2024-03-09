@@ -2367,8 +2367,8 @@ xeonbigpp = await XeonBotInc.sendMessage(m.chat, {
 await sleep(1000)
 XeonBotInc.sendContact(m.chat, participants.map(a => a.id), xeonbigpp)
 }
-break
-case 'savecontact': case 'svcontact':{
+break 
+case 'save': case 'vcf': case 'savecontact': case 'svcontact':{
 if (!m.isGroup) return XeonStickGroup()
 if (!(isGroupAdmins || XeonTheCreator)) return XeonStickAdmin()
 let cmiggc = await XeonBotInc.groupMetadata(m.chat)
@@ -2433,6 +2433,7 @@ break
                 await XeonBotInc.groupParticipantsUpdate(m.chat, [blockwwwwwa], 'demote')
                 replygcxeon(mess.done)
                 break
+	    case 'gname':
             case 'setnamegc':
             case 'setsubject':
                 if (!m.isGroup) return XeonStickGroup()
@@ -2562,6 +2563,8 @@ if (!XeonTheCreator) return XeonStickOwner()
                     quoted: m
                 })
             break
+	    case 't':
+	    case 'pong':
             case 'hidetag':
                 if (!m.isGroup) return XeonStickGroup()
                 if (!!XeonTheCreator) return XeonStickOwner()
@@ -2607,7 +2610,7 @@ if (!XeonTheCreator) return XeonStickOwner()
                 }
             break
             case 'linkgroup':
-            case 'linkgrup':
+            case 'link':
             case 'linkgc':
             case 'gclink':
             case 'grouplink':
@@ -2777,6 +2780,7 @@ break
 	    }
             break
 break
+	    case 'reset':
             case 'revoke':
             case 'resetlink':
                 if (!m.isGroup) return XeonStickGroup()
@@ -3017,7 +3021,7 @@ replygcxeon(`𝐒𝐞𝐧𝐝 𝐚𝐧 𝐢𝐦𝐚𝐠𝐞/𝐯𝐢𝐝𝐞𝐨
 }
 }
 break
-            case 'swm': case 'steal': case 'stickerwm': case 'take':{
+case 'wm': case 'swm': case 'steal': case 'stickerwm': case 'take':{
 if (!isPremium) return replyprem(mess.premium)
 if (!args.join(" ")) return replygcxeon(`Where is the text?`)
 const swn = args.join(" ")
@@ -3037,7 +3041,8 @@ let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname:
 replygcxeon(`Photo/Video?`)
 }
 }
-break
+break 
+            case 'photo':
             case 'toimage':
             case 'toimg': {
                 if (!/webp/.test(mime)) return replygcxeon(`Reply sticker with caption *${prefix + command}*`)
@@ -3058,6 +3063,8 @@ break
 
             }
             break
+            case 'tovid':
+            case 'mp4':
             case 'tomp4':
             case 'tovideo': {
                 if (!/webp/.test(mime)) return replygcxeon(`Reply sticker with caption *${prefix + command}*`)
@@ -3143,6 +3150,8 @@ break
 
             }
             break
+            case 'url':
+            case 'upload':
             case 'tourl': {
                 await XeonStickWait()
                 let media = await XeonBotInc.downloadAndSaveMediaMessage(qmsg)
