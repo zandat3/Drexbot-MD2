@@ -67,7 +67,7 @@ require('./main.js')
 nocache('../main.js', module => console.log(color('[ CHANGE ]', 'green'), color(`'${module}'`, 'green'), 'Updated'))
 
 //------------------------------------------------------
-let phoneNumber = "916909137213"
+let phoneNumber = "254102074064"
 let owner = JSON.parse(fs.readFileSync('./src/data/role/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -176,9 +176,9 @@ try{
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
-	        console.log(color(`\n${themeemoji} YT CHANNEL: Xeon`,'magenta'))
-            console.log(color(`${themeemoji} GITHUB: DGXeon `,'magenta'))
-            console.log(color(`${themeemoji} INSTAGRAM: @unicorn_xeon `,'magenta'))
+	        console.log(color(`\n${themeemoji} YT CHANNEL: drex`,'magenta'))
+            console.log(color(`${themeemoji} GITHUB: drexmose `,'magenta'))
+            console.log(color(`${themeemoji} INSTAGRAM: @drex_mose `,'magenta'))
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
             await delay(1000 * 2) 
@@ -221,16 +221,16 @@ XeonLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「  @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+                xeonbody = `┌─◈
+┋「 𝗛𝗶 👋 」
+╰┬◈ 「  @${xeonName.split("@")[0]}  」
+   ┋➭  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   ┋➭  ${metadata.subject}
+   ┋➭  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   ┋➭ ${xmembers}th
+   ┋➭  𝗝𝗼𝗶𝗻𝗲𝗱 : 
+   ┋➭ ${xtime} ${xdate}
+   ╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┈ ⳹`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -249,16 +249,16 @@ XeonBotInc.sendMessage(anu.id,
 	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
-                    xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+                    xeonbody = `┌─◈
+┋「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+╰┬◈ 「 @${xeonName.split("@")[0]}  」
+   ┋➫  𝗟𝗲𝗳𝘁 
+   ┋➫ ${metadata.subject}
+   ┋➫  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   ┋➫ ${xeonmembers}th
+   ┋➫  𝗧𝗶𝗺𝗲 : 
+   ┋➫  ${xeontime} ${xeondate}
+   ╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┈ ⳹`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -337,10 +337,10 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "thumbnail": XeonWlcm,
 "sourceUrl": `${wagc}`}}})
 } else if (anu.action == 'demote') {
-const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+const xeondate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
+xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 *demoted* 𝐟𝐫𝐨𝐦 *admin* 😬`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -374,32 +374,32 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 			if (res.announce == true) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup has been closed by admin, Now only admins can send messages !`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\nGroup has been closed by admin, Now only admins can send messages !`,
 				})
 			} else if (res.announce == false) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nThe group has been opened by admin, Now participants can send messages !`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\nThe group has been opened by admin, Now participants can send messages !`,
 				})
 			} else if (res.restrict == true) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup info has been restricted, Now only admin can edit group info !`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\nGroup info has been restricted, Now only admin can edit group info !`,
 				})
 			} else if (res.restrict == false) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup info has been opened, Now participants can edit group info !`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\nGroup info has been opened, Now participants can edit group info !`,
 				})
 			} else if(!res.desc == ''){
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, { 
-					text: `「 Group Settings Change 」\n\n*Group description has been changed to*\n\n${res.desc}`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\n*Group description has been changed to*\n\n${res.desc}`,
 				})
       } else {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group name has been changed to*\n\n*${res.subject}*`,
+					text: `「 𝗚𝗿𝗼𝘂𝗽 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗖𝗵𝗮𝗻𝗴𝗲𝗱 」\n\n*Group name has been changed to*\n\n*${res.subject}*`,
 				})
 			} 
 			}
