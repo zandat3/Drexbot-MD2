@@ -181,7 +181,7 @@ try{
             console.log(color(`${themeemoji} GITHUB: drexmose `,'magenta'))
             console.log(color(`${themeemoji} INSTAGRAM: @drex_mose `,'magenta'))
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
-            console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
+            console.log(color(`${themeemoji} CREDIT: drexmose\n`,'magenta'))
             await delay(1000 * 2) 
 		}
 	
