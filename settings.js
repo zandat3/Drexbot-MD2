@@ -14,24 +14,24 @@ const chalk = require('chalk')
 global.sessionid ='ur session id'
 
 //owmner v card
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.ytname = "YT: drexmose" //ur yt chanel name
+global.socialm = "GitHub: drexmose" //ur github or insta name
+global.location = "Africa, Kenya, Nairobi" //ur location
 
 //new
-global.botname = 'Cheems Bot MD V11' //ur bot name
-global.ownernumber = '916909137213' //ur owner number
-global.ownername = '🦄드림 가이 Xeon' //ur owner name
-global.websitex = "https://youtu.be/mu5m6aB6P5k"
-global.wagc = "https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20"
+global.botname = '𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐌𝐃 𝐕2' //ur bot name
+global.ownernumber = '254102074064' //ur owner number
+global.ownername = '𝐃𝐄𝐕𝐈𝐋 𝐃𝐑𝐄𝐗' //ur owner name
+global.websitex = "https://youtu.be/drexmose"
+global.wagc = "https://chat.whatsapp.com/FJWZJDDFEyG3vUX2LInQzP"
 global.themeemoji = '🪀'
 global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD11' //script link
-global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+916909137213"
-global.creator = "916909137213@s.whatsapp.net"
+global.botscript = 'https://github.com/wait😁😂' //script link
+global.packname = "𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐁𝐘"
+global.author = "𝐘𝐎𝐔𝐑 𝐏𝐀𝐏𝐀 𝐃𝐑𝐄𝐗\n\n+254102074064"
+global.creator = "254102074064@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["916909137213"] // Premium User
+global.premium = ["254102074064"] // Premium User
 global.hituet = 0
 
 //bot sett
