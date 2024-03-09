@@ -2479,7 +2479,7 @@ if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} 
     replygcxeon(`Success in changing the bio of bot's number`)
     }
     break
-    case 'deleteppgroup': case 'delppgc': case 'deleteppgc': case 'delppgroup': {
+    case 'deleteppgroup': case 'delppgc': case   'deleteppgc': case 'delppgroup': {
 if (!m.isGroup) return XeonStickGroup()
 if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
 if (!isBotAdmins) return XeonStickBotAdmin()
@@ -2492,7 +2492,7 @@ if (!XeonTheCreator) return XeonStickOwner()
     replygcxeon(`Success in deleting bot's profile picture`)
     }
     break 
-           case gdesc':
+           case 'gdesc':
            case 'setdesc':
            case 'setdesk':
                 if (!m.isGroup) return XeonStickGroup()
@@ -2897,7 +2897,7 @@ break
                 replygcxeon(`Type ${prefix}owner and chat him`)
                 break
             case 'speedtest': {
-                replygcxeon('Testing Speed...')
+                replygcxeon('𝐓𝐄𝐒𝐓𝐈𝐍𝐆 𝐁𝐎𝐓 𝐒𝐏𝐄𝐄𝐃...')
                 let cp = require('child_process')
                 let {
                     promisify
