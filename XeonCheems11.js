@@ -3157,7 +3157,7 @@ break
 
             }
             break
-            case 'emomix:
+            case 'emomix':
             case 'emix':
             case 'emojimix': {
                 let [emoji1, emoji2] = text.split`+`
