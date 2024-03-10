@@ -505,7 +505,7 @@ return arr[Math.floor(Math.random() * arr.length)]
             } else global.db.data.settings[botNumber] = {
                totalhit: 0,
                totalError: 0,
-               online: truee,
+               online: true,
                autosticker: false,
                autobio: false,
                autoread: false,
