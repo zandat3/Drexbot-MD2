@@ -1,11 +1,11 @@
-//base by DGXeon
+//base by Devil Drex
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
+//YouTube: @drexmose
+//Instagram: drex_mose
+//Telegram: t.me/dark_intent
+//GitHub: @drexmose
+//WhatsApp: +254102074064
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@drexmose
 
 const fs = require('fs')
 const chalk = require('chalk')
@@ -23,9 +23,9 @@ global.botname = '𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐌𝐃 𝐕2' //ur bot name
 global.ownernumber = '254102074064' //ur owner number
 global.ownername = '𝐃𝐄𝐕𝐈𝐋 𝐃𝐑𝐄𝐗' //ur owner name
 global.websitex = "https://youtu.be/drexmose"
-global.wagc = "https://chat.whatsapp.com/FJWZJDDFEyG3vUX2LInQzP"
+global.wagc = "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v"
 global.themeemoji = '🗿'
-global.wm = "Xeon Bot Inc."
+global.wm = "Drex Bot Inc."
 global.botscript = 'https://github.com/drexmose/Drexbot-MD2' //script link
 global.packname = "𝐒𝐓𝐈𝐂𝐊𝐄𝐑 𝐁𝐘"
 global.author = "𝐘𝐎𝐔𝐑 𝐏𝐀𝐏𝐀 𝐃𝐑𝐄𝐗\n\n+254102074064"
