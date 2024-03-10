@@ -1,11 +1,11 @@
-//base by Devil Drex
+//base by DGXeon
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @drexmose
-//Instagram: drex_mose
-//Telegram: t.me/dark_intent
-//GitHub: @drexmose
-//WhatsApp: +254102074064
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@drexmose
+//YouTube: @DGXeon
+//Instagram: unicorn_xeon13
+//Telegram: t.me/xeonbotinc
+//GitHub: @DGXeon
+//WhatsApp: +916909137213
+//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
 
 require('./lib/listmenu')
 const {
@@ -144,19 +144,19 @@ let vote = db.data.others.vote = []
 let kuismath = db.data.game.math = []
 
 //time
-const xtime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
-const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
-const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
+const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
- if(time2 < "20:00:00"){
+ if(time2 < "19:00:00"){
 var xeonytimewisher = `Good Evening 🌃`
  }
  if(time2 < "18:00:00"){
 var xeonytimewisher = `Good Evening 🌃`
  }
- if(time2 < "12:00:00"){
+ if(time2 < "15:00:00"){
 var xeonytimewisher = `Good Afternoon 🌅`
  }
  if(time2 < "11:00:00"){
@@ -468,7 +468,7 @@ return arr[Math.floor(Math.random() * arr.length)]
                   badword: false,
                   antiforeignnum: false,
                   antibot: false,
-                  antiviewonce: true,
+                  antiviewonce: false,
                   antivirtex: false,
                   antimedia: false,
                   antiimage: false,
@@ -479,8 +479,8 @@ return arr[Math.floor(Math.random() * arr.length)]
                   antilocation: false,
                   antidocument: false,
                   anticontact: false,
-                  antilink: true,
-                  antilinkgc: true
+                  antilink: false,
+                  antilinkgc: false
                }
             
             let setting = global.db.data.settings[botNumber]
@@ -505,7 +505,7 @@ return arr[Math.floor(Math.random() * arr.length)]
             } else global.db.data.settings[botNumber] = {
                totalhit: 0,
                totalError: 0,
-               online: true,
+               online: false,
                autosticker: false,
                autobio: false,
                autoread: false,
@@ -514,8 +514,8 @@ return arr[Math.floor(Math.random() * arr.length)]
                onlyindo: false,
                onlygrub: false,
                onlypc: false,
-               autorecordtype: true,
-               autorecord: true,
+               autorecordtype: false,
+               autorecord: false,
                autotype: false,
                watermark: {
                   packname: global.packname, 
@@ -603,7 +603,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐌𝐃 𝐕2 𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -1415,7 +1415,7 @@ fs.writeFileSync('./src/data/role/user.json', JSON.stringify(xeonverifieduser, n
             case 'listprem': {
                 if (!XeonTheCreator) return XeonStickOwner()
                 let data = require('./src/data/role/premium.json')
-                let txt = `*------「 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐔𝐒𝐄𝐑𝐒 𝐋𝐈𝐒𝐓 」------*\n\n`
+                let txt = `*------「 LIST PREMIUM 」------*\n\n`
                 for (let x of data) {
                     txt += `Number : ${x.id}\n`
                     txt += `Expire In: ${x.expired} ms\n`
@@ -1448,7 +1448,7 @@ fs.writeFileSync('./src/data/role/owner.json', JSON.stringify(owner))
 replygcxeon(`The Numbrr ${ya} Has been deleted from owner list by the owner!!!`)
 break
 case 'listowner': {
-                let teks = '┌──⭓「 *𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑𝐒 𝐋𝐈𝐒𝐓* 」\n│\n'
+                let teks = '┌──⭓「 *List Owner* 」\n│\n'
                 for (let x of owner) {
                     teks += `│⭔ ${x}\n`
                 }
@@ -1871,7 +1871,7 @@ case 'block': case 'ban': {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: `Sent in ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2349,7 +2349,7 @@ var inputnumber = text.split(" ")[0]
                 if (anu1 == '401' || anu1.status.length == 0) {
                     nobio += `wa.me/${anu[0].jid.split("@")[0]}\n`
                 } else {
-                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Africa/Nairobi').format('HH:mm:ss DD/MM/YYYY')}\n\n`
+                    text66 += `🪀 *Number:* wa.me/${anu[0].jid.split("@")[0]}\n 🎗️*Bio :* ${anu1.status}\n🧐*Last update :* ${moment(anu1.setAt).tz('Asia/Kolkata').format('HH:mm:ss DD/MM/YYYY')}\n\n`
                 }
             } catch {
                 nowhatsapp += `${number0}${i}${number1}\n`
@@ -2367,8 +2367,8 @@ xeonbigpp = await XeonBotInc.sendMessage(m.chat, {
 await sleep(1000)
 XeonBotInc.sendContact(m.chat, participants.map(a => a.id), xeonbigpp)
 }
-break 
-case 'save': case 'vcf': case 'savecontact': case 'svcontact':{
+break
+case 'savecontact': case 'svcontact':{
 if (!m.isGroup) return XeonStickGroup()
 if (!(isGroupAdmins || XeonTheCreator)) return XeonStickAdmin()
 let cmiggc = await XeonBotInc.groupMetadata(m.chat)
@@ -2433,7 +2433,6 @@ break
                 await XeonBotInc.groupParticipantsUpdate(m.chat, [blockwwwwwa], 'demote')
                 replygcxeon(mess.done)
                 break
-	    case 'gname':
             case 'setnamegc':
             case 'setsubject':
                 if (!m.isGroup) return XeonStickGroup()
@@ -2464,7 +2463,7 @@ const teksop = `     「 Create Group 」
 
 ▸ Name : ${cret.subject}
 ▸ Owner : @${cret.owner.split("@")[0]}
-▸ Creation : ${moment(cret.creation * 1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}
+▸ Creation : ${moment(cret.creation * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}
 
 https://chat.whatsapp.com/${response}`
 XeonBotInc.sendMessage(m.chat, { text:teksop, mentions: await XeonBotInc.parseMention(teksop)}, {quoted:m})
@@ -2480,7 +2479,7 @@ if (!text) return replygcxeon(`Where is the text?\nExample: ${prefix + command} 
     replygcxeon(`Success in changing the bio of bot's number`)
     }
     break
-    case 'deleteppgroup': case 'delppgc': case   'deleteppgc': case 'delppgroup': {
+    case 'deleteppgroup': case 'delppgc': case 'deleteppgc': case 'delppgroup': {
 if (!m.isGroup) return XeonStickGroup()
 if (!isAdmins && !XeonTheCreator) return XeonStickAdmin()
 if (!isBotAdmins) return XeonStickBotAdmin()
@@ -2492,10 +2491,9 @@ if (!XeonTheCreator) return XeonStickOwner()
     await XeonBotInc.removeProfilePicture(XeonBotInc.user.id)
     replygcxeon(`Success in deleting bot's profile picture`)
     }
-    break 
-           case 'gdesc':
-           case 'setdesc':
-           case 'setdesk':
+    break
+            case 'setdesc':
+            case 'setdesk':
                 if (!m.isGroup) return XeonStickGroup()
                 if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
                 if (!isBotAdmins) return XeonStickBotAdmin()
@@ -2503,7 +2501,6 @@ if (!XeonTheCreator) return XeonStickOwner()
                 await XeonBotInc.groupUpdateDescription(m.chat, text)
                 replygcxeon(mess.done)
                 break
-            case 'icon':
             case 'setppgroup':
             case 'setppgrup':
             case 'setppgc':
@@ -2563,11 +2560,10 @@ if (!XeonTheCreator) return XeonStickOwner()
                     quoted: m
                 })
             break
-	    case 't':
-	    case 'pong':
             case 'hidetag':
                 if (!m.isGroup) return XeonStickGroup()
-                if (!!XeonTheCreator) return XeonStickOwner()
+                if (!isAdmins && !isGroupOwner && !XeonTheCreator) return XeonStickAdmin()
+                if (!isBotAdmins) return XeonStickBotAdmin()
                 XeonBotInc.sendMessage(m.chat, {
                     text: q ? q : '',
                     mentions: participants.map(a => a.id)
@@ -2577,7 +2573,8 @@ if (!XeonTheCreator) return XeonStickOwner()
             break
             case 'totag':
                 if (!m.isGroup) return XeonStickGroup()
-                if(!XeonTheCreator) return XeonStickOwner()
+                if (!isBotAdmins) return XeonStickBotAdmin()
+                if (!isAdmins) return replygcxeon(mess.admin)
                 if (!m.quoted) return replygcxeon(`Reply media with caption ${prefix + command}`)
                 XeonBotInc.sendMessage(m.chat, {
                     forward: m.quoted.fakeObj,
@@ -2610,7 +2607,7 @@ if (!XeonTheCreator) return XeonStickOwner()
                 }
             break
             case 'linkgroup':
-            case 'link':
+            case 'linkgrup':
             case 'linkgc':
             case 'gclink':
             case 'grouplink':
@@ -2780,7 +2777,6 @@ break
 	    }
             break
 break
-	    case 'reset':
             case 'revoke':
             case 'resetlink':
                 if (!m.isGroup) return XeonStickGroup()
@@ -2823,8 +2819,19 @@ break
                 neww = performance.now()
                 oldd = performance.now()
                 respon = `
-📍𝐁𝐎𝐓 𝐒𝐏𝐄𝐄𝐃 *${latensi.toFixed(4)}* 𝐌𝐒
-               `.trim()
+Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
+
+💻 Info Server
+RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+
+_NodeJS Memory Usaage_
+${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
+
+${cpus[0] ? `_Total CPU Usage_
+${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
+_CPU Core(s) Usage (${cpus.length} Core CPU)_
+${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
+                `.trim()
 	XeonBotInc.relayMessage(m.chat,  {
         requestPaymentMessage: {
           currencyCodeIso4217: 'INR',
@@ -2886,7 +2893,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -2901,7 +2908,7 @@ break
                 replygcxeon(`Type ${prefix}owner and chat him`)
                 break
             case 'speedtest': {
-                replygcxeon('𝐓𝐄𝐒𝐓𝐈𝐍𝐆 𝐁𝐎𝐓 𝐒𝐏𝐄𝐄𝐃...')
+                replygcxeon('Testing Speed...')
                 let cp = require('child_process')
                 let {
                     promisify
@@ -2924,7 +2931,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2940,7 +2947,7 @@ break
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+                                thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -2953,7 +2960,7 @@ break
             }
             break
             case 'runtime':
-                let pinga = `𝐃𝐑𝐄𝐗 𝐁𝐎𝐓 𝐌𝐃 𝐕2 𝐇𝐀𝐒 𝐁𝐄𝐄𝐍 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐅𝐎𝐑... ${runtime(process.uptime())}`
+                let pinga = `Bots Have Been Running For ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: pinga,
                     contextInfo: {
@@ -2961,7 +2968,7 @@ break
                             showAdAttribution: true,
                             title: botname,
                             body: ownername,
-                            thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+                            thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
                             sourceUrl: wagc,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -3017,11 +3024,11 @@ if ((quoted.msg || quoted).seconds > 11) return replygcxeon('Send/Reply Images/V
 let media = await quoted.download()
 let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
 } else {
-replygcxeon(`𝐒𝐞𝐧𝐝 𝐚𝐧 𝐢𝐦𝐚𝐠𝐞/𝐯𝐢𝐝𝐞𝐨/𝐠𝐢𝐟 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 ${prefix+command}`)
+replygcxeon(`Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds`)
 }
 }
 break
-case 'wm': case 'swm': case 'steal': case 'stickerwm': case 'take':{
+            case 'swm': case 'steal': case 'stickerwm': case 'take':{
 if (!isPremium) return replyprem(mess.premium)
 if (!args.join(" ")) return replygcxeon(`Where is the text?`)
 const swn = args.join(" ")
@@ -3041,8 +3048,7 @@ let encmedia = await XeonBotInc.sendVideoAsSticker(m.chat, media, m, { packname:
 replygcxeon(`Photo/Video?`)
 }
 }
-break 
-            case 'photo':
+break
             case 'toimage':
             case 'toimg': {
                 if (!/webp/.test(mime)) return replygcxeon(`Reply sticker with caption *${prefix + command}*`)
@@ -3063,8 +3069,6 @@ break
 
             }
             break
-            case 'tovid':
-            case 'mp4':
             case 'tomp4':
             case 'tovideo': {
                 if (!/webp/.test(mime)) return replygcxeon(`Reply sticker with caption *${prefix + command}*`)
@@ -3150,8 +3154,6 @@ break
 
             }
             break
-            case 'url':
-            case 'upload':
             case 'tourl': {
                 await XeonStickWait()
                 let media = await XeonBotInc.downloadAndSaveMediaMessage(qmsg)
@@ -3166,8 +3168,6 @@ break
 
             }
             break
-            case 'emomix':
-            case 'emix':
             case 'emojimix': {
                 let [emoji1, emoji2] = text.split`+`
                 if (!emoji1) return replygcxeon(`Example : ${prefix + command} 😅+🤔`)
@@ -3183,7 +3183,6 @@ break
                 }
             }
             break
-            case 'emix2':
             case 'emojimix2': {
                 if (!text) return replygcxeon(`Example : ${prefix + command} 😅`)
                 let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
@@ -4515,8 +4514,6 @@ case 'spotify':{
     }
     }
     break
-case 'movie':
-case 'series':
 case 'imdb':
 if (!text) return replygcxeon(`_Name a Series or movie`)
 await XeonStickWait()
@@ -6665,58 +6662,58 @@ case 'blur':
             let latensie = speed() - timestampe
             let a = db.data.users[sender]
             let me = m.sender
-            let xmenu_oh = `┌─◈
-┋ Holla 👋 
-╰┬◈  ${pushname} 
-╭┥◎  ${xeonytimewisher} 😄${readmore} 
-┋╰┉┉┉┉┉┉┉┉┉┉┉┉┉┈ ⳹
-┋
-╰● 𝑫𝑹𝑬𝑿 𝑩𝑶𝑻 𝑴𝑫 𝑽2 𝑰𝑵𝑭𝑶
-┋𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-┋𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-┋𝗕𝗼𝘁 : ${botname}
-┋𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
-┋𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
-┋𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-┋𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : 𝐃𝐫𝐞𝐱 𝐇𝐨𝐬𝐭𝐢𝐧𝐠𝐬
-┋𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-┋𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-┋𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-┋𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-┋
-╰┅● 𝑼𝑺𝑬𝑹 𝑰𝑵𝑭𝑶
-┋𝗡𝗮𝗺𝗲 : ${pushname}
-┋𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
-┋𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
-┋𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
-┋𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
-┋
-╰┅● 𝑻𝑰𝑴𝑬 𝑰𝑵𝑭𝑶 
-┋𝗧𝗶𝗺𝗲 : ${xtime}
-┋𝗗𝗮𝘁𝗲 : ${xdate}
-╰┬┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅ ⳹
-   ┋◈  Please Type The *MENU*
-   ┋◈  Given *BELOW*
-╭┄┄┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ⳹
-┋◉✫${xprefix}𝐚𝐥𝐥𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐟𝐮𝐧𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐚𝐢𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐠𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐨𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐩𝐡𝐨𝐭𝐨𝐨𝐱𝐲𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐞𝐩𝐡𝐨𝐭𝐨360𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐦𝐚𝐤𝐞𝐫𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐚𝐧𝐢𝐦𝐞𝐦𝐞𝐮.
-┋◉✫${xprefix}𝐧𝐬𝐟𝐰𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐫𝐚𝐧𝐝𝐨𝐦𝐩𝐡𝐨𝐭𝐨𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐫𝐚𝐧𝐝𝐨𝐦𝐯𝐢𝐝𝐞𝐨𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐬𝐭𝐚𝐥𝐤𝐞𝐫𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐛𝐮𝐠𝐦𝐞𝐧𝐮.
-┋◉✫${xprefix}𝐨𝐭𝐡𝐞𝐫𝐦𝐞𝐧𝐮.
-╰┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┈ ⳹`
+            let xmenu_oh = `┌─❖
+│ Hi 👋 
+└┬❖  ${pushname} 
+┌┤✑  ${xeonytimewisher} 😄${readmore} 
+│└────────────┈ ⳹
+│
+└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 
+│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│𝗕𝗼𝘁 : ${botname}
+│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
+│𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
+│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
+│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
+│𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
+│
+└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
+│𝗡𝗮𝗺𝗲 : ${pushname}
+│𝗡𝘂𝗺𝗯𝗲𝗿 : +${me.split('@')[0]}
+│𝗟𝗶𝗺𝗶𝘁 : ${a.limit}
+│𝗧𝗶𝘁𝗹𝗲 : ${a.title ? a.title : '-'}
+│𝗦𝗲𝗿𝗶𝗮𝗹: ${a.serialNumber}
+│
+└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
+│??𝗶𝗺𝗲 : ${xtime}
+│𝗗𝗮𝘁𝗲 : ${xdate}
+└┬───────────────── ⳹
+   │✑  Please Type The *MENU*
+   │✑  Given *BELOW*
+┌└─────────────┈ ⳹
+│❏${xprefix}allmenu
+│❏${xprefix}downloadmenu
+│❏${xprefix}funmenu
+│❏${xprefix}aimenu
+│❏${xprefix}groupmenu
+│❏${xprefix}ownermenu
+│❏${xprefix}photooxymenu
+│❏${xprefix}ephoto360menu
+│❏${xprefix}makermenu
+│❏${xprefix}animemenu
+│❏${xprefix}nsfwmenu
+│❏${xprefix}randomphotomenu
+│❏${xprefix}randomvideomenu
+│❏${xprefix}stickermenu
+│❏${xprefix}databasemenu
+│❏${xprefix}stalkermenu
+│❏${xprefix}bugmenu
+│❏${xprefix}othermenu
+└─────────────────┈ ⳹`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
@@ -6814,7 +6811,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -6925,7 +6922,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7036,7 +7033,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7147,7 +7144,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7258,7 +7255,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7369,7 +7366,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7480,7 +7477,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7591,7 +7588,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7702,7 +7699,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7813,7 +7810,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -7924,7 +7921,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8035,7 +8032,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8146,7 +8143,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8257,7 +8254,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8368,7 +8365,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8479,7 +8476,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8590,7 +8587,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8701,7 +8698,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8812,7 +8809,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/2a6fb9950120c5c492064.jpg',
+      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -8863,7 +8860,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8884,7 +8881,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8905,7 +8902,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8927,7 +8924,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8948,7 +8945,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8969,7 +8966,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -8990,7 +8987,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9037,7 +9034,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9059,7 +9056,7 @@ const xeonybug1 = xeontext5
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9081,7 +9078,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9103,7 +9100,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9125,7 +9122,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9173,7 +9170,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -9760,7 +9757,7 @@ XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true, {quoted: m})
     } catch (err) {
         console.log(util.format(err))
         let e = String(err)
-XeonBotInc.sendMessage("254102074064@s.whatsapp.net", { text: "Hello my developer, Drex. There seems to be an error, please fix it " + util.format(e), 
+XeonBotInc.sendMessage("254102074064@s.whatsapp.net", { text: "Hello developer, there seems to be an error, please fix it " + util.format(e), 
 contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true
